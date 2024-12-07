@@ -1,0 +1,27 @@
+{
+  "recommendations": [
+    "mikestead.dotenv",
+    "mhutchie.git-graph",
+    "streetsidesoftware.code-spell-checker",
+    "austenc.tailwind-docs",
+    "github.vscode-pull-request-github",
+    "knisterpeter.vscode-commitizen",
+    "graphql.vscode-graphql-syntax",
+    "editorconfig.editorconfig",
+    "formulahendry.auto-rename-tag",
+    "dbaeumer.vscode-eslint",
+    "aaron-bond.better-comments",
+    "graphql.vscode-graphql",
+    "christian-kohler.path-intellisense",
+    "azuretools.vscode-docker",
+    "christian-kohler.npm-intellisense",
+    "bradlc.vscode-tailwindcss",
+    "dsznajder.es7-react-js-snippets",
+    "vsliveshare.vsliveshare",
+    "esbenp.prettier-vscode",
+    "nrwl.angular-console",
+    "eamodio.gitlens",
+    "vscode.makefile-tools",
+    "apollographql.vscode-apollo"
+  ]
+}

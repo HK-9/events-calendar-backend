@@ -1,0 +1,26 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": true,
+  "zenMode.hideLineNumbers": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.words": [
+    "constate",
+    "fluentui",
+    "hasura",
+    "hookform",
+    "linkify",
+    "loadindividual",
+    "pptxgenjs",
+    "rrule",
+    "Upskilling"
+  ],
+  "git.autofetch": "all",
+  "git.autofetchPeriod": 60,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
