@@ -1,16 +1,16 @@
+import cookieParser from "cookie-parser";
 import cors from "cors";
 import dotenv from "dotenv";
 import express from "express";
 import mongoose from "mongoose";
 
 import authRoutes from "./routes/authRoute.js";
-
-import cookieParser from "cookie-parser";
 import eventRoutes from "./routes/eventsRoute.js";
+import userRoutes from "./routes/userRoute.js";
 
 dotenv.config();
 const app = express();
-const allowedOrigins = ["http://localhost:3000"];
+const allowedOrigins = ["http://localhost:3000", "http://localhost:3001"];
 
 const corsOptions = {
   origin: (origin, callback) => {
@@ -45,3 +45,4 @@ app.get("/", (req, res) => {
 
 app.use("/auth", authRoutes);
 app.use("/events", eventRoutes);
+app.use("/user", userRoutes);
